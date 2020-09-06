@@ -1,0 +1,6 @@
+{
+    "token": "YOUR TOKEN",
+    "owner": ["Your Client ID", "Second Client ID"],
+    "prefix": "!!",
+    "version": "1.0"
+}
