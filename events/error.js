@@ -1,10 +1,8 @@
 /*
- *   Copyright (c) 2020 routerabfrage
- *   All rights reserved.
- *   https://github.com/routerabfrage/License
+ * Copyright (c) 2020-2021, Bastian Leicht <mail@bastianleicht.de>
+ *
+ * PDX-License-Identifier: BSD-2-Clause
  */
-// jshint esversion: 8
-// jshint multistr: true 
 const Discord = require('discord.js');
 const config = require('../config.json');
 

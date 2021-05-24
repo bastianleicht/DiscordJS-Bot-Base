@@ -1,9 +1,8 @@
 /*
- *   Copyright (c) 2020 routerabfrage
- *   All rights reserved.
- *   https://github.com/routerabfrage/License
+ * Copyright (c) 2020-2021, Bastian Leicht <mail@bastianleicht.de>
+ *
+ * PDX-License-Identifier: BSD-2-Clause
  */
-// jshint esversion: 8
 const Discord = require('discord.js');
 
 module.exports.run = async (client, message, args) => {
@@ -15,9 +14,8 @@ module.exports.run = async (client, message, args) => {
         .addField("Bot Latency", `${message.createdTimestamp - message.createdTimestamp}ms`, true)
         .addField("API Latency", `${Math.round(client.ws.ping)}ms`, true)
         .setTimestamp()
-        .setFooter(`© 2020 routerabfrage`);
-
-    message.channel.send(embed);
+        .setFooter(`© 2020 bastianleicht`);
+    await message.channel.send(embed);
 };
 
 module.exports.help = {
