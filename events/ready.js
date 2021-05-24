@@ -22,6 +22,6 @@ module.exports = (client) => {
 
     //client.user.setActivity(`To some music`, {
     //    type: "STREAMING",
-    //    url: "https://www.twitch.tv/routerabfrage"
+    //    url: "https://www.twitch.tv/routerabfrage"    // You have to use a Twitch link or else it won't work.
     //});
 };
