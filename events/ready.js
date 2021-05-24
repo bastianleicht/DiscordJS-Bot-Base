@@ -11,4 +11,17 @@ module.exports = (client) => {
     client.user.setActivity(`Discord JS Bot Base | ${config.version}`, {
         type: "PLAYING"
     });
+
+    //client.user.setActivity(`Some Netflix`, {
+    //    type: "WATCHING"
+    //});
+
+    //client.user.setActivity(`To some music`, {
+    //    type: "LISTENING"
+    //});
+
+    //client.user.setActivity(`To some music`, {
+    //    type: "STREAMING",
+    //    url: "https://www.twitch.tv/routerabfrage"
+    //});
 };
